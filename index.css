@@ -131,27 +131,20 @@ user-select: none;
    visibility: hidden;
 }
 .attribution{
-    position: absolute;
-    top: 90%;
-    left: 36%;
-    color: white;
+ text-align: center;
+ justify-content: center;
+  color: white;
 }
 a{
     color: red;
     text-decoration: none;
 }
-@media(max-width:375px){
+@media(max-width:720px){
     .container{
         width: 90%;
         height: 65vh;
         left: 5%;
-        top: 18vh;
+     
     } 
-       .attribution{
-        position: absolute;
-        top: 90%;
-        left: 10%;
-        color: white;
-        font-size: 13px;
-    }
+ 
 }
