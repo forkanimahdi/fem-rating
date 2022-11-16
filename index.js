@@ -10,7 +10,7 @@ buttonsOfRating.forEach(rate => (rate.addEventListener("click" , () => selectit(
 
 function selectit(buttonOfRating){
   const text = buttonOfRating.textContent
-  if(text == "1"||text == "2"||text == "3"||text == "4"||text == "6" ){
+  if(text == "1"||text == "2"||text == "3"||text == "4"||text == "5" ){
 ratingNumber.textContent = text
 submiting.addEventListener("click" , () => submitratig())
 
