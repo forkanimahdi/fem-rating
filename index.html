@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap">
+    <link rel="stylesheet" href="rating.css">
+    <title>Rating</title>
+</head>
+<body id="body">
+  <div class="container">
+      <!-- Rating state start -->
+    <div id="ratingphase">
+  <div id="rateit">
+    <div class="star"><img class="str" src="/Challenges/challenges files/interactive-rating-component-main/images/icon-star.svg" alt="star"></div> 
+<h2 class="ask">  How did we do?</h2>
+<p class="askinfo"> Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+<div class="ratingstars">
+    <button class="ratingbutton" value="5">1</button>
+    <button class="ratingbutton">2</button>
+    <button class="ratingbutton">3</button>
+    <button class="ratingbutton">4</button>
+    <button class="ratingbutton">5</button>
+</div>
+<button id="submit" type="submit">submit</button>
+</div>
+</div> 
+  <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+<div id="thanksphase">
+<img class="thanksimg" src="/Challenges/challenges files/interactive-rating-component-main/images/illustration-thank-you.svg" alt="Bill">
+<h3>You selected <!-- Add rating here --> <span id="ratingnumber"></span> out of 5</h3>
+<p class="thx">Thank you!</p>
+<p class="thxinfo">We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+</div>
+  <!-- Thank you state end -->
+</div>
+    
+<div class="attribution">
+        Test version for <a href="https://www.instagram.com/hm4art_" target="_blank">Hanane mounir</a>. 
+        <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+        Coded by <a href="https://www.instagram.com/forkanimahdi" target="_blank">Forkani Mehdi</a>.
+      </div>
+      <script src="rating.js"></script>
+</body>
+</html>

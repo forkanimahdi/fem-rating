@@ -1,0 +1,150 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.container{
+   position: absolute;
+   left:36% ;
+   top: 22%;
+    width: 27%;
+    height: 60vh;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 7%;
+}
+.star{
+    width:10%;
+    height: 6vh;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-color: hsl(216, 12%, 24%);
+border-radius: 50%;
+}
+.str{
+    position: absolute;
+    left: 27%;
+    top: 27%;
+}
+.ask{
+    color: white;
+    position: absolute;
+    left:10% ;
+    top: 22%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+.askinfo{
+    color: hsl(217, 12%, 63%);
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+.ratingstars{
+  display: flex;
+  position: absolute;
+  top: 62%;
+  left: 4%;
+  width: 100%;
+}
+.ratingbutton{
+
+    color: hsl(217, 12%, 63%);
+padding: 14px 18px 12px;
+    background-color: hsl(216, 12%, 24%);
+border-radius: 50%;
+border: none;
+margin-left: 5.5%;
+cursor: pointer;
+font-size: 15px;
+user-select: none;
+font-weight: 400;
+}
+.ratingbutton:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color: #ffffff;
+    transition: 0.3s;
+}
+.ratingbutton:focus{
+    background-color:  hsl(217, 12%, 63%);
+    color: #ffffff;   
+}
+
+#submit{
+    width: 80%;
+    height: 41px;
+    position: absolute;
+    top: 81%;
+    left: 11%;
+    font-weight: 700;
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+#submit:hover{
+    background-color: white;
+    color:  hsl(25, 97%, 53%);
+    transition: 0.3s;
+}
+
+.thanksimg{
+    position: absolute;
+    left: 25%;
+    top: 8%;
+}
+h3{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+    position: absolute;
+    top: 42%;
+left: 28%;
+background-color: hsl(216, 12%, 24%);
+padding: 3px 12px 3px 12px;
+border-radius: 60px;
+color:  hsl(25, 97%, 53%);
+user-select: none;
+}
+.thx{
+    font-family: 'Overpass', sans-serif;
+    position: absolute;
+    top: 52%;
+    left: 36%;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+   user-select: none; 
+}
+.thxinfo{
+    color: hsl(217, 12%, 63%);
+    position: absolute;
+    top: 66%;
+    left: 8%;
+    font-size: 14px;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    width: 85%;
+}
+#thanksphase{
+   visibility: hidden;
+}
+.attribution{
+    position: absolute;
+    top: 90%;
+    left: 36%;
+    color: white;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+@media(max-width:375px){
+    .container{
+        width: 90%;
+        height: 65vh;
+        left: 5%;
+        top: 18vh;
+    }  
+}
