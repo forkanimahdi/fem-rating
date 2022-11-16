@@ -146,5 +146,12 @@ a{
         height: 65vh;
         left: 5%;
         top: 18vh;
-    }  
+    } 
+       .attribution{
+        position: absolute;
+        top: 90%;
+        left: 10%;
+        color: white;
+        font-size: 13px;
+    }
 }
